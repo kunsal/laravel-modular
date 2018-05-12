@@ -1,0 +1,14 @@
+{
+    "name": "kunsal/laravel-modular",
+    "description": "Create modular application scaffold in laravel 5.4+",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olakunle Salami",
+            "email": "kunsal2003@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
