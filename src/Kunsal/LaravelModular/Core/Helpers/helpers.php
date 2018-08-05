@@ -119,7 +119,7 @@ function upload($file, $dir = null, $name="Photo")
     if ($file)
     {
         // Generate random dir
-        // if ( ! $dir) $dir = str_random(8);
+       // if ( ! $dir) $dir = str_random(8);
         // Create directory if not exists
         //if (!is_dir($dir)) mkdir($dir);
         // Get file info and try to move
@@ -292,7 +292,7 @@ function route_back($route, $param=null)
 function download($filename, $path=''){
     if(!empty($filename)){
         // Specify file path.
-        // $path = '';
+       // $path = '';
         $download_file =  $path.$filename;
         // Check file is exists on given path.
         if(file_exists($download_file))
@@ -396,7 +396,7 @@ function get_ol($array, $child=false){
         foreach($array as $item){
             $str .= '<li id="list_'.$item['page_id'].'" class="menu-item">';
             $str .= '<a>'.page_title($item['page_id']).
-                '<span class="pull-right remove-from-menu" data-page-id="'.$item['page_id'].'">
+                        '<span class="pull-right remove-from-menu" data-page-id="'.$item['page_id'].'">
                             <i class="fa fa-trash text-danger" style="cursor:pointer" title="Remove from Menu"></i>
                         </span>
                     </a>';
