@@ -15,7 +15,6 @@
         "illuminate/database": "5.*@dev",
         "illuminate/validation": "5.*@dev",
         "kris/laravel-form-builder": "1.*",
-        "laracasts/presenter": "*",
         "yajra/laravel-datatables-oracle":"~8.0"
     },
     "require-dev": {
@@ -38,7 +37,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kunsal": "src/Kunsal/"
+            "Kunsal\\": "src/Kunsal/"
         },
         "files": [
             "src/helpers.php"
