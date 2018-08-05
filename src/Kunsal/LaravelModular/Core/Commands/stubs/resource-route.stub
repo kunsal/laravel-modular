@@ -1,0 +1,7 @@
+<?php
+
+Route::group(['middleware' => ['web'], 'namespace' => 'App\Modules\{{plural}}\Http\Controllers'], function ()
+{
+    Route::get('{{name}}/data', '{{plural}}Controller@data')->name('{{name}}.data');
+	Route::resource('{{name}}', '{{plural}}Controller', ['except' => 'show']);
+});

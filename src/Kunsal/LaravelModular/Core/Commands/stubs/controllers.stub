@@ -1,0 +1,12 @@
+<?php
+{{namespace}};
+
+use App\Modules\Core\Http\Controllers\BackendController;
+
+class {{class}} extends BackendController{
+
+	public function __construct(){
+	    parent::__construct();
+	}
+
+}
