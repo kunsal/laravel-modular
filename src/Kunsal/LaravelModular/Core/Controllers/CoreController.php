@@ -9,12 +9,14 @@
 namespace Kunsal\LaravelModular\Core\Controllers;
 
 
+use Illuminate\Routing\Controller;
+
 class CoreController extends Controller
 {
-    protected $data;
-    
+    protected $data = [];
+
     public function __construct()
     {
-        
+
     }
 }

@@ -3,14 +3,8 @@
 
 use Illuminate\Database\Eloquent\Model;
 
-use Laracasts\Presenter\PresentableTrait;
-
 class {{class}} extends Model{
 
 	protected $guarded = ['_token', 'save_exit'];
-
-	use PresentableTrait;
-
-	protected $presenter = 'App\Modules\{{plural}}\Presenters\{{class}}Presenter';
 
 }

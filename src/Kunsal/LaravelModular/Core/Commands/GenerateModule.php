@@ -62,7 +62,7 @@ class GenerateModule extends Command
         //$this->info($this->replaceNamespace($stub, $module)->replaceClass($stub, $module));
         $this->makeController($module, $module_path, $namespace, $empty, $type);
         $this->makeModel($module, $module_path, $namespace, $schema, $form);
-        $this->makePresenter($module, $module_path, $namespace);
+       // $this->makePresenter($module, $module_path, $namespace);
         $this->makeProvider($module, $module_path, $namespace);
         $this->makeEventProvider($module, $module_path, $namespace);
         $this->makeResources($module_path, $module);
@@ -107,7 +107,7 @@ class GenerateModule extends Command
         $this->files->put("{$controller_path}/{$class}.php", $stub);
         
         file_put_contents("{$module_path}/Http/routes.php", ($empty == false) ? $this->resource_route($plural) : $this->route($plural));
-        $this->makeRequests($module, $module_path, $namespace);
+        //$this->makeRequests($module, $module_path, $namespace);
     }
 
     protected function makeModel($module, $module_path,$namespace, $schema=null, $form=null)
