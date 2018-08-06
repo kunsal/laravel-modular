@@ -1,9 +1,9 @@
 <?php
 {{namespace}};
 
-use App\Modules\Core\Http\Controllers\BackendController;
+use Kunsal\LaravelModular\Core\Controllers\CoreController;
 
-class {{class}} extends BackendController{
+class {{class}} extends CoreController{
 
 	public function __construct(){
 	    parent::__construct();

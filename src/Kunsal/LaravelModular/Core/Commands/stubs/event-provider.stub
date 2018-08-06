@@ -2,7 +2,7 @@
 namespace {{namespace}};
 
 
-use App\Modules\Core\Providers\EventServiceProvider;
+use Illuminate\Foundation\Support\Providers\EventServiceProvider;
 
 class {{plural}}EventServiceProvider extends EventServiceProvider{
 
