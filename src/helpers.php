@@ -495,6 +495,6 @@ function add_new_btn($route, $btn_txt)
 
 function back_btn($route, $btn_txt)
 {
-    return '<a href="'.route($route) .'" class="btn btn-warning">'.$btn_txt.'</a>';
+    return '<a href="'.route($route).'" class="btn btn-warning">'.$btn_txt.'</a>';
 }
 
